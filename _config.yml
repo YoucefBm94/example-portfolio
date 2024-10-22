@@ -1,5 +1,38 @@
-title: Shaw Talebi
+# Site settings
+title: Youcef Boumezaar
 logo: /assets/img/headshot_circle.png
-#description: text below image
-show_downloads: true
-theme: jekyll-theme-minimal
+description: Welcome to my personal website
+baseurl: ""
+url: "https://youcefbm94.github.io/"
+
+# Remote theme configuration
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme # Ensure you include this for remote themes
+
+# Author information
+author:
+  name: Youcef Boumezaar
+  email: youcef.boumezaar@gmail.com  # Replace with your actual email
+  twitter: your_twitter_handle    # Optional: Replace with your Twitter handle
+  github: youcefbm94              # Your GitHub username
+
+# Social links
+social:
+  - name: Twitter
+    url: https://x.com/YoucefBoumezaar
+  - name: GitHub
+    url: https://github.com/youcefbm94
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/youcef-boumezaar/
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Optional: Additional configurations
+# Uncomment below for custom settings if needed
+# theme: minimal # Uncomment if using a local theme instead
+# include: [your_folder] # Add folders to include in the build process
+# exclude: [other_folder] # Add folders to exclude from the build process
+
